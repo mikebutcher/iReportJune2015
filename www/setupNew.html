@@ -1,0 +1,71 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>iReport Setup</title> 
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+		<link rel="stylesheet" href="jq/jquery.mobile-1.0.css" />
+		<script src="jq/jquery.js"></script>
+		<script src="jq/jquery.mobile-1.0.js"></script>
+		<script src="js/setup.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/iReport.js"></script>
+		
+	</head> 
+	<body> 
+	<form>
+	<div data-role="page" data-theme="d">
+	
+			<div data-role="header" data-theme="f">
+					<a href="index.html" data-icon="home" data-theme="c">Home</a>
+						<center><img src="img/logo.png" alt="Chardon Logo" height="45px" width="40px" ></br><b>Chardon Labs - iReport</b></img></center>
+					<a href="#" data-icon="gear" data-theme="c" id="TechNameOptions" >Setup</a>
+			</p>
+			</div><!-- /header -->
+
+		<div data-role="content" data-theme="b">	
+		
+		<div id="userSetup" >
+	
+		<h2> Username
+		
+		<input id = "Username" name="Username" value="mbutcher" size=50 maxlength=50 autocomplete=off>
+		Password
+		
+		<input id = "Password" name="Password" value="mike" type="password" size=50 maxlength=50 autocomplete=off>
+		
+		</h2>
+		<input type="button"  data-ajax="false" id="initial_setup" value=" Sign In ">
+		
+		
+
+		</div>
+		<div id="actAs" style="display: none">
+
+
+		<fieldset><legend>Admin - Act As</legend>
+
+
+
+		<h3>Please choose: <select name="techList"
+			onchange="alert(this.options[this.selectedIndex].value); document.getElementById('TechNameOptions').innerHTML =this.options[this.selectedIndex].value; setTech(this.options[this.selectedIndex].value);  "
+			id="techList"></h3>
+		<option>Please Choose....</select>
+
+		<p>
+		<button	onclick="window.location='index.html'">Done</button>
+		</fieldset>
+		</div>
+  
+		</div><!-- /content -->
+
+		<div data-role="footer" data-theme="b">
+			<h4>Page Footer</h4>
+		</div><!-- /footer -->
+	</div><!-- /page -->
+
+	</body>
+	</form>
+</html>
+
+
