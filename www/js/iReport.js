@@ -14,18 +14,18 @@ localStorage.setItem('photocount', 1);
 //slURL = "http://www.chardonlabs.com/eReportv4.nsf/JSONTemplatesCATsingle4?ReadViewEntries&count=500&RestrictToCategory=" + techname + "&outputformat=json";
 //bvURL = "http://www.chardonlabs.com/eReportv4.nsf/JSONBookView4?ReadViewEntries&count=500&RestrictToCategory=" + techname + "&outputformat=json";
 
-slURL = "http://www.chardonlabs.com/eReportv4.nsf/JSONTemplatesCATsingle2?ReadViewEntries&count=500&RestrictToCategory=" + techname + "&outputformat=json";
-bvURL = "http://www.chardonlabs.com/eReportv4.nsf/JSONBookView2?ReadViewEntries&count=500&RestrictToCategory=" + techname + "&outputformat=json";
+slURL = "http://70.62.158.229/eReportv4.nsf/JSONTemplatesCATsingle2?ReadViewEntries&count=500&RestrictToCategory=" + techname + "&outputformat=json";
+bvURL = "http://70.62.158.229/eReportv4.nsf/JSONBookView2?ReadViewEntries&count=500&RestrictToCategory=" + techname + "&outputformat=json";
 
 //Technicians List from Keywords        
-tlURL = "http://www.chardonlabs.com/CUSKEY.NSF/(json)?ReadViewEntries&count=500&RestrictToCategory=service+techs&outputformat=json"
+tlURL = "http://70.62.158.229/CUSKEY.NSF/(json)?ReadViewEntries&count=500&RestrictToCategory=service+techs&outputformat=json"
 
 //History from eReport Database
 //limited to 2000 records
 
 //8-28-12 Updated to view with the report date sorted in a hidden column
 
-histURL = "http://www.chardonlabs.com/eReportv4.nsf/iPhoneHistory2?ReadViewEntries&count=200&RestrictToCategory=" + techname + "&outputformat=json";
+histURL = "http://70.62.158.229/eReportv4.nsf/iPhoneHistory2?ReadViewEntries&count=200&RestrictToCategory=" + techname + "&outputformat=json";
 
 
 //Builds the iReport Database on the Device - it has 5 Tables
@@ -150,7 +150,7 @@ function doDominoLogin(username, password) {
 	
 	var logReq = createXHTMLHttpRequest();
     var poststring = "RedirectTo=" + escape('ereportv4.nsf/login.html') + "&Username=" + username + "&password=" + password;
-    logReq.open("POST", "http://www.chardonlabs.com/names.nsf?Login", false);
+    logReq.open("POST", "http://70.62.158.229/names.nsf?Login", false);
     logReq.send(poststring);
 
 
@@ -229,7 +229,7 @@ function loginReport() {
     //updates the 
     try {
         //Run some code here
-        navigator.network.isReachable("www.chardonlabs.com", reachableCallback, {});
+        navigator.network.isReachable("70.62.158.229", reachableCallback, {});
     }
     catch (err) {
         //Handle errors here
@@ -282,7 +282,7 @@ function doDominoLoginSilent(username, password) {
 
     var logReq = createXHTMLHttpRequest();
     var poststring = "RedirectTo=" + escape('ereportv4.nsf/login.html') + "&Username=" + username + "&password=" + password;
-    logReq.open("POST", "http://www.chardonlabs.com/names.nsf?Login", false);
+    logReq.open("POST", "http://70.62.158.229/names.nsf?Login", false);
     logReq.send(poststring);
 
 
