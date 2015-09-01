@@ -333,7 +333,7 @@ function createDoc (CustID, name, timestamp, tech, ReportDate, Contact, notify, 
 	
 	
 	
-	var backupURL = "https://70.62.158.229/eReportv4.nsf/iPhone?createdocument";
+	var backupURL = "http://70.62.158.229/eReportv4.nsf/iPhone?createdocument";
     
 
 	// 9-5-12  - Moved to index.html  now stored in a local storage variable 
