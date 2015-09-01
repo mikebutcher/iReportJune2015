@@ -282,7 +282,7 @@ function doDominoLoginSilent(username, password) {
 
     var logReq = createXHTMLHttpRequest();
     var poststring = "RedirectTo=" + escape('ereportv4.nsf/login.html') + "&Username=" + username + "&password=" + password;
-    logReq.open("POST", "http://70.62.158.229/names.nsf?Login", false);
+    logReq.open("POST", "http://www.chardonlabs.com/names.nsf?Login", false);
     logReq.send(poststring);
 
 
