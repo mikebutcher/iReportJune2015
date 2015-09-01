@@ -290,7 +290,7 @@ function doDominoLoginSilent(username, password) {
 
     if (logReq.status == 200) {
 	//$("#progress").remove();
-	alert(logReq.status);
+//	alert(logReq.status);
         lastposition = logReq.responseText.lastIndexOf("###");
 
 
