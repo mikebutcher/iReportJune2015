@@ -101,7 +101,7 @@ mp4 video/mp4
          document.getElementById('count').innerHTML = PhotoCount+1;
                 
                 
-            ft.upload(imageURI, "http://www.chardonlabs.com/ereportv4.nsf/prereport2/"+unid+"?savedocument", win, fail, options);
+            ft.upload(imageURI, "http://70.62.158.229/ereportv4.nsf/prereport2/"+unid+"?savedocument", win, fail, options);
            
        
 }
@@ -119,7 +119,7 @@ function winLast(r) {
 
     var httpLastPIC = createXMLHttpRequest2();
     var docunid = localStorage.getItem("unid");
-    CurrentDocURL = "http://www.chardonlabs.com/ereportv4.nsf/prereport2/"+docunid+"?savedocument"
+    CurrentDocURL = "http://70.62.158.229/ereportv4.nsf/prereport2/"+docunid+"?savedocument"
    
     params = "PhotoCount=Done"
         //      alert("Current Doc: " + CurrentDocURL);
@@ -475,9 +475,9 @@ function createDoc (CustID, name, timestamp, tech, ReportDate, Contact, notify, 
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Change when production
 	
-//	var backupURL = "http://www.chardonlabs.com/R2D2.nsf/prereport?createdocument";
+//	var backupURL = "http://70.62.158.229/R2D2.nsf/prereport?createdocument";
 	
-	var backupURL = "http://www.chardonlabs.com/eReportv4.nsf/prereport2?createdocument";
+	var backupURL = "http://70.62.158.229/eReportv4.nsf/prereport2?createdocument";
     //	http.open("post", URL, true);
 	httpBU.open("post", backupURL, true);
 
@@ -523,7 +523,7 @@ function createDoc (CustID, name, timestamp, tech, ReportDate, Contact, notify, 
 	                   // alert(unid);             	                  
 	                  //After Unid I tell the PhotoCount for the Remaining number of Photos to be Sent
 	                  
-	                  CurrentDocURL = "http://www.chardonlabs.com/ereportv4.nsf/prereport2/"+unid+"?savedocument"
+	                  CurrentDocURL = "http://70.62.158.229/ereportv4.nsf/prereport2/"+unid+"?savedocument"
 	                  
 	                  
 	                  
