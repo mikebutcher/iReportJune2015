@@ -7,7 +7,7 @@ version = "2.0">
 <name>iReport 9-14-16</name>
 
 <description>
-iReport for iPhone iOS10 
+iReport for iPhone iOs 10 
 </description>
 
 <author href="http://www.nitobi.com" email="mbutche1@gmail.com">
@@ -17,11 +17,12 @@ Mike Butcher
 <gap:splash src="splash.png" width="640" height="1136"/>
 <gap:splash src="splash.png" gap:platform="ios" width="640" height="1136" />
 
-<preference name="phonegap-version" value="3.6.3" />
+<preference name="phonegap-version" value="4.3.1" />
 
 
 <gap:plugin name="org.apache.cordova.core.camera" />
 <gap:plugin name="org.apache.cordova.dialogs"  />
+  
 <access origin="*" />
 
 </widget>
