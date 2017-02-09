@@ -19,9 +19,9 @@ Mike Butcher
 
 
 
+<gap:plugin name="org.apache.cordova.camera" source="npm" />
 
-<gap:plugin name="org.apache.cordova.core.camera" />
-<gap:plugin name="org.apache.cordova.dialogs"  />
+<gap:plugin name="org.apache.cordova.dialogs"  source="npm" />
   
 <access origin="*" />
 
