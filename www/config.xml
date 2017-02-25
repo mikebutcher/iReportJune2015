@@ -4,7 +4,7 @@ xmlns:gap = "http://phonegap.com/ns/1.0"
 id = "com.chardonlabs.2.8.17.1"
 version = "2.0">
 
-<name>iReport 2-8-17</name>
+<name>iReport 2-25-17</name>
 
 <description>
 iReport for iPhone iOs 10 
@@ -17,9 +17,12 @@ Mike Butcher
 <gap:splash src="splash.png" width="640" height="1136"/>
 <gap:splash src="splash.png" gap:platform="ios" width="640" height="1136" />
 
-<gap:plugin name="org.apache.cordova.camera" source="npm" />
-<gap:plugin name="org.apache.cordova.dialogs"  source="npm" />
-  
+
+<preference name="phonegap-version" value="3.6.3" />
+
+
+<gap:plugin name="org.apache.cordova.core.camera" />
+<gap:plugin name="org.apache.cordova.dialogs"  />
 <access origin="*" />
 
 </widget>
