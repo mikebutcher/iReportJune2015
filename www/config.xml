@@ -19,9 +19,8 @@ Mike Butcher
 
 
 <preference name="phonegap-version" value="3.6.3" />
+<gap:plugin name="cordova-plugin-whitelist" source="npm" />
 
-
-<gap:plugin name="org.apache.cordova.core.camera" />
 <gap:plugin name="org.apache.cordova.dialogs"  />
 <access origin="*" />
 
