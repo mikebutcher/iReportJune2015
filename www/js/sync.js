@@ -333,12 +333,12 @@ function createDoc (CustID, name, timestamp, tech, ReportDate, Contact, notify, 
 	
 	
 	
-	var backupURL = "https://70.62.158.229/eReportv4.nsf/iPhone?createdocument";
+	var backupURL = "http://70.62.158.229/eReportv4.nsf/iPhone?createdocument";
     
 
 	// 9-5-12  - Moved to index.html  now stored in a local storage variable 
-	var backupURL = localStorage.getItem('backupURL')
-	//alert(backupURL);
+	//var backupURL = localStorage.getItem('backupURL')
+	alert(backupURL);
 	console.log('URL ' + backupURL);
 	
 //	http.open("post", URL, true);
@@ -370,7 +370,7 @@ function createDoc (CustID, name, timestamp, tech, ReportDate, Contact, notify, 
 		
 		
 		//accessGivenTo="+AccessGivenTo
-	 // alert(params);
+	alert(params);
 	httpBU.send(params);
 	
 
