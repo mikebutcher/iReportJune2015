@@ -950,8 +950,7 @@ saveReport (custid, this.id, this.value);"
 		
 
 		<table cellpadding="10" >
-		
-		
+			
 		<tr>
 		<td>
 		
@@ -1431,6 +1430,34 @@ value="I added treatment to the closed loop (see comments)"
    
 		
 		</td></td>
+	
+	
+	//The indicated inhibitor range provides corrosion protection equal to the established ALPLA molybdate range 
+		
+			
+		<tr>
+		<td>
+		
+		
+		
+		<input type="checkbox" id="ActionsList26" 	name="ActionsList26"  value="The indicated inhibitor range provides corrosion protection equal to the established ALPLA molybdate range"
+
+		onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		var c_value = &quot;&quot;;
+		var i_value =&quot;&quot;; 
+
+		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
+ 
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
+				id="ActionsList" style="margin-top: 10; padding: 20px;">
+				</td>
+				<td>
+				<label for="ActionsList26" onClick="document.forms[0].ActionsList26.checked=(! document.forms[0].ActionsList1.checked);">The indicated inhibitor range provides corrosion protection equal to the established ALPLA molybdate range</label>
+            
+	
+		
+	</td></tr>
+	
 		
 	</table>		
 			
