@@ -4,21 +4,21 @@ xmlns:gap = "http://phonegap.com/ns/1.0"
 id = "com.chardonlabs.5.7.17.1"
 version = "2.0">
 
-<name>iReport 5-7-17</name>
+<name>iReport 9-8-17</name>
 
 <description>
 iReport for iPhone iOs 10 
 </description>
 
-<author href="http://www.nitobi.com" email="mbutche1@gmail.com">
+<author href="http://www.chardonlabs.com" email="mbutche1@gmail.com">
 Mike Butcher
 </author>
 <icon src="img/icon.png" default="false" />
 <gap:splash src="splash.png" width="640" height="1136"/>
 <gap:splash src="splash.png" gap:platform="ios" width="640" height="1136" />
 
-
-<preference name="phonegap-version" value="3.6.3" />
+<preference name='phonegap-version' value='cli-6.5.0' />
+<!-- <preference name="phonegap-version" value="3.6.3" /> -->
 <!-- core plugins -->
     <gap:plugin name="cordova-plugin-battery-status" source="npm" />
     <gap:plugin name="cordova-plugin-camera" source="npm"/>
