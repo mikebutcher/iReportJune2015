@@ -949,521 +949,549 @@ saveReport (custid, this.id, this.value);"
 
 		
 
-		<table cellpadding="10" >
-			
-		<tr>
-		<td>
-		
-		
-		
-		<input type="checkbox" id="ActionsList1" 	name="ActionsList"  value="Customer Signed this report"
+<!--Start options added 5-31-18-->		
+<table cellpadding="10">
 
-		onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+    <tr>
+        <td>
+
+            <input type="checkbox" id="ActionsList1" name="ActionsList" value="Customer Signed this report" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
 		var c_value = &quot;&quot;;
 		var i_value =&quot;&quot;; 
-
 		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
- 
-		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
-				id="ActionsList" style="margin-top: 10; padding: 20px;">
-				</td>
-				<td>
-				<label for="ActionsList1" onClick="document.forms[0].ActionsList1.checked=(! document.forms[0].ActionsList1.checked);">Customer Signed this report</label>
-            
-	
-		
-	</td></tr>
-		
-		
-		
-		<tr>
-		<td>
-		
-		
-		
-		<input type="checkbox" id="ActionsList2" 	name="ActionsList"  value="I effectively managed the system to minimize utility bills"
 
-		onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td>
+            <label for="ActionsList1" onClick="document.forms[0].ActionsList1.checked=(! document.forms[0].ActionsList1.checked);">Customer Signed this report</label>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+
+            <input type="checkbox" id="ActionsList2" name="ActionsList" value="I effectively managed the system to minimize utility bills" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
 		var c_value = &quot;&quot;;
 		var i_value =&quot;&quot;; 
-
 		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
- 
-		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
-				id="ActionsList" style="margin-top: 10; padding: 20px;">
-				</td>
-				<td>
-				<label for="ActionsList2" onClick="document.forms[0].ActionsList2.checked=(! document.forms[0].ActionsList2.checked);">I effectively managed the system to minimize utility bills</label>
-            
-	
-		
-	</td></tr>
-	<td>	
-		
-		
-		<input type="checkbox"	name="ActionsList" id="ActionsList3" 
-value="I read and recorded the make-up water meter reading"
 
-		onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td>
+            <label for="ActionsList2" onClick="document.forms[0].ActionsList2.checked=(! document.forms[0].ActionsList2.checked);">I effectively managed the system to minimize utility bills</label>
+
+        </td>
+    </tr>
+    <td>
+
+        <input type="checkbox" name="ActionsList" id="ActionsList3" value="I read and recorded the make-up water meter reading" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
 		var c_value = &quot;&quot;;
 		var i_value =&quot;&quot;; 
-
 		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
- 
-		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
-				id="ActionsList" style="margin-top: 10; padding: 20px;">
-	</td>
-	<td>
-	<label for="ActionsList3" onClick="document.forms[0].ActionsList3.checked=(! document.forms[0].ActionsList3.checked);">I read and recorded the make-up water meter reading</label>
-            
-		
-	</td></tr>
-		
-		<tr><td>
-		
-		
-					<input type="checkbox"	name="ActionsList" id="ActionsList4" 
-			value="I batched the chemicals"
 
-					onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+    </td>
+    <td>
+        <label for="ActionsList3" onClick="document.forms[0].ActionsList3.checked=(! document.forms[0].ActionsList3.checked);">I read and recorded the make-up water meter reading</label>
+
+    </td>
+    </tr>
+
+    <tr>
+        <td>
+
+            <input type="checkbox" name="ActionsList" id="ActionsList4" value="I batched the chemicals" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
 					var c_value = &quot;&quot;;
 					var i_value =&quot;&quot;; 
-
 					for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
-			 
-					saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
-							id="ActionsList" style="margin-top: 10; padding: 20px;"></td>
-			<td>
-			<label for="ActionsList4" onClick="document.forms[0].ActionsList4.checked=(! document.forms[0].ActionsList4.checked);">I batched the chemicals</label>
-					
-					
-			</td></tr>		
-		
-		<tr><td>
-	
-					<input type="checkbox"	name="ActionsList" id="ActionsList5"
-			value="I checked the chemical feed equipment"
 
-					onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+					saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td>
+            <label for="ActionsList4" onClick="document.forms[0].ActionsList4.checked=(! document.forms[0].ActionsList4.checked);">I batched the chemicals</label>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+
+            <input type="checkbox" name="ActionsList" id="ActionsList5" value="I checked the chemical feed equipment" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
 					var c_value = &quot;&quot;;
 					var i_value =&quot;&quot;; 
-
 					for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
-			 
-					saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
-							id="ActionsList" style="margin-top: 10; padding: 20px;"></td>
-			<td>
-			<label for="ActionsList5" onClick="document.forms[0].ActionsList5.checked=(! document.forms[0].ActionsList5.checked);">I checked the chemical feed equipment</label>
-					
-					
-					</td></tr>
-					
-					<tr><td>
-		<label>
-		<input type="checkbox"	name="ActionsList"  id="ActionsList6"
-value="I changed the batch formula (see comments)"
 
-		onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+					saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td>
+            <label for="ActionsList5" onClick="document.forms[0].ActionsList5.checked=(! document.forms[0].ActionsList5.checked);">I checked the chemical feed equipment</label>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <label>
+                <input type="checkbox" name="ActionsList" id="ActionsList6" value="I changed the batch formula (see comments)" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
 		var c_value = &quot;&quot;;
 		var i_value =&quot;&quot;; 
-
 		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
- 
-		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
-				id="ActionsList" style="margin-top: 10; padding: 20px;"></td>
-				<td>
-				<label for="ActionsList6" onClick="document.forms[0].ActionsList6.checked=(! document.forms[0].ActionsList6.checked);" >I changed the batch formula (see comments)</label>
-          
+
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td>
+            <label for="ActionsList6" onClick="document.forms[0].ActionsList6.checked=(! document.forms[0].ActionsList6.checked);">I changed the batch formula (see comments)</label>
+
+        </td>
+    </tr>
+
+    </tr>
+    <td>
+
+        <input type="checkbox" name="ActionsList" id="ActionsList7" value="I cleaned the conductivity probe" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		var c_value = &quot;&quot;;
+		var i_value =&quot;&quot;; 
+		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
+
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+    </td>
+    <td>
+        <label for="ActionsList7" onClick="document.forms[0].ActionsList7.checked=(! document.forms[0].ActionsList7.checked);">I cleaned the conductivity probe</label>
+
+        </tr>
+    </td>
+    <tr>
+        <td>
+
+            <input type="checkbox" name="ActionsList" id="ActionsList8" value="I checked the bleed solenoid" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		var c_value = &quot;&quot;;
+		var i_value =&quot;&quot;; 
+		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
+
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td>
+            <label for="ActionsList8" onClick="document.forms[0].ActionsList8.checked=(! document.forms[0].ActionsList8.checked);">I checked the bleed solenoid</label>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+
+            <input type="checkbox" name="ActionsList" id="ActionsList9" value="I inspected the cooling tower sump" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		var c_value = &quot;&quot;;
+		var i_value =&quot;&quot;; 
+		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
+
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td>
+            <label for="ActionsList9" onClick="document.forms[0].ActionsList9.checked=(! document.forms[0].ActionsList9.checked);">I inspected the cooling tower sump</label>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+
+            <input type="checkbox" name="ActionsList" id="ActionsList10" value="I inspected the distribution pans" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		var c_value = &quot;&quot;;
+		var i_value =&quot;&quot;; 
+		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
+
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td>
+            <label for="ActionsList10" onClick="document.forms[0].ActionsList10.checked=(! document.forms[0].ActionsList10.checked);">I inspected the distribution pans</label>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+
+            <input type="checkbox" name="ActionsList" id="ActionsList_11" value="I took a sample to be analyzed by our Lab (see comments)" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		var c_value = &quot;&quot;;
+		var i_value =&quot;&quot;; 
+		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
+
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td onClick="document.forms[0].ActionsList_11.checked=(! document.forms[0].ActionsList_11.checked);">
+            <label>I took a sample to be analyzed by our Lab (see comments)</label>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+
+            <input type="checkbox" name="ActionsList" id="ActionsList_12" value="I removed Chardon shipping containers" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		var c_value = &quot;&quot;;
+		var i_value =&quot;&quot;; 
+		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
+
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td onClick="document.forms[0].ActionsList_12.checked=(! document.forms[0].ActionsList_12.checked);">
+            <label>I removed Chardon shipping containers</label>
+        </td>
+    </tr>
+
 	
-	</td></tr>		
-		
-		</tr><td>
-		
-		<input type="checkbox"	name="ActionsList" id="ActionsList7"
-value="I cleaned the conductivity probe"
-
-		onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
-		var c_value = &quot;&quot;;
-		var i_value =&quot;&quot;; 
-
-		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
- 
-		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
-				id="ActionsList" style="margin-top: 10; padding: 20px;"></td>
-<td>
-<label for="ActionsList7" onClick="document.forms[0].ActionsList7.checked=(! document.forms[0].ActionsList7.checked);">I cleaned the conductivity probe</label>
-            
-		
-			</tr></td>
-		<tr><td>	
-			
-		
-		<input type="checkbox"	name="ActionsList" id="ActionsList8"
-value="I checked the bleed solenoid"
-
-		onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
-		var c_value = &quot;&quot;;
-		var i_value =&quot;&quot;; 
-
-		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
- 
-		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
-				id="ActionsList" style="margin-top: 10; padding: 20px;"></td>
-<td>
-<label for="ActionsList8" onClick="document.forms[0].ActionsList8.checked=(! document.forms[0].ActionsList8.checked);">I checked the bleed solenoid</label>
-       
-		
-		</td></tr>
-		
-		<tr><td>	
-		
-		<input type="checkbox"	name="ActionsList" id="ActionsList9"
-value="I inspected the cooling tower sump"
-
-		onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
-		var c_value = &quot;&quot;;
-		var i_value =&quot;&quot;; 
-
-		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
- 
-		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
-				id="ActionsList" style="margin-top: 10; padding: 20px;"></td>
-<td>
-<label for="ActionsList9"  onClick="document.forms[0].ActionsList9.checked=(! document.forms[0].ActionsList9.checked);">I inspected the cooling tower sump</label>
-            
+	<!-- Add new options -->
 	
-		</td></tr>
-		
-		<tr><td>
-	
-		<input type="checkbox"	name="ActionsList" id="ActionsList10"
-value="I inspected the distribution pans"
+	<tr>
+        <td>
 
-		onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+            <input type="checkbox" name="ActionsList" id="ActionsList_13" value="Your biocide program is functioning properly" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
 		var c_value = &quot;&quot;;
 		var i_value =&quot;&quot;; 
-
 		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
- 
-		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
-				id="ActionsList" style="margin-top: 10; padding: 20px;"></td>
-<td>
-<label for="ActionsList10" onClick="document.forms[0].ActionsList10.checked=(! document.forms[0].ActionsList10.checked);">I inspected the distribution pans</label>
-        
-		
-		</td></tr>
-		
-		<tr><td>
-	
-		<input type="checkbox"	name="ActionsList" id="ActionsList_11" value="I took a sample to be analyzed by our Lab (see comments)"
 
-		onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td onClick="document.forms[0].ActionsList_13.checked=(! document.forms[0].ActionsList_13.checked);">
+            <label>Your biocide program is functioning properly</label>
+        </td>
+    </tr>
+	
+	<tr>
+        <td>
+
+            <input type="checkbox" name="ActionsList" id="ActionsList_14" value="I have adjusted the biocide feed program" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
 		var c_value = &quot;&quot;;
 		var i_value =&quot;&quot;; 
-
 		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
- 
-		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
-				id="ActionsList" style="margin-top: 10; padding: 20px;"></td>
-<td onClick="document.forms[0].ActionsList_11.checked=(! document.forms[0].ActionsList_11.checked);">
-<label>I took a sample to be analyzed by our Lab (see comments)</label>
-           
-		
-</td></tr>		
-		
-		
-		<tr><td>
-	
-		<input type="checkbox"	name="ActionsList" id="ActionsList_12" value="I removed Chardon shipping containers"
 
-		onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td onClick="document.forms[0].ActionsList_14.checked=(! document.forms[0].ActionsList_14.checked);">
+            <label>I have adjusted the biocide feed program</label>
+        </td>
+    </tr>
+	
+	<tr>
+        <td>
+
+            <input type="checkbox" name="ActionsList" id="ActionsList_15" value="The Free Chlorine level is in the proper range" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
 		var c_value = &quot;&quot;;
 		var i_value =&quot;&quot;; 
-
 		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
- 
-		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;"></td>
-			<td onClick="document.forms[0].ActionsList_12.checked=(! document.forms[0].ActionsList_12.checked);">
-			<label>I removed Chardon shipping containers</label>
-			</td>
-		</tr>		
-		
-		
+
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td onClick="document.forms[0].ActionsList_15.checked=(! document.forms[0].ActionsList_15.checked);">
+            <label>The Free Chlorine level is in the proper range</label>
+        </td>
+    </tr>
 	
-			
-		<tr><td>		
+	<tr>
+        <td>
 
-		<input type="checkbox"	name="ActionsList" id="ActionsList13" value="I changed the filter bag"
-
-		onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+            <input type="checkbox" name="ActionsList" id="ActionsList_16" value="The Free Chlorine level is 0.5-1.0 ppm" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
 		var c_value = &quot;&quot;;
 		var i_value =&quot;&quot;; 
-
 		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
- 
-		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
-				id="ActionsList" style="margin-top: 10; padding: 20px;"></td>
-<td onClick="document.forms[0].ActionsList13.checked=(! document.forms[0].ActionsList13.checked);">
-<label>I changed the filter bag</label>
-            
-		
-		</td></tr>
-				
-		<tr><td>		
-	
-		<input type="checkbox"	name="ActionsList" id="ActionsList14"
-value="I added treatment to the closed loop (see comments)"
 
-		onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td onClick="document.forms[0].ActionsList_16.checked=(! document.forms[0].ActionsList_16.checked);">
+            <label>The Free Chlorine level is 0.5-1.0 ppm</label>
+        </td>
+    </tr>
+	
+	<tr>
+        <td>
+
+            <input type="checkbox" name="ActionsList" id="ActionsList_17" value="The Total Chlorine level is 1-4 ppm" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
 		var c_value = &quot;&quot;;
 		var i_value =&quot;&quot;; 
-
 		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
- 
-		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
-				id="ActionsList" style="margin-top: 10; padding: 20px;"></td>
-<td onClick="document.forms[0].ActionsList14.checked=(! document.forms[0].ActionsList14.checked);">
-<label>I added treatment to the closed loop (see comments)</label>
-            
-		
-	</td></tr>	
-			
-							<tr><td>
-						
-							<input type="checkbox"	name="ActionsList" id="ActionsList15"
-					value="I ordered more treatment or reagents"
 
-							onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td onClick="document.forms[0].ActionsList_17.checked=(! document.forms[0].ActionsList_16.checked);">
+            <label>The Total Chlorine level is 1-4 ppm</label>
+        </td>
+    </tr>
+	
+	<tr>
+        <td>
+
+            <input type="checkbox" name="ActionsList" id="ActionsList_18" value="The proper amount of biocide was used this month" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		var c_value = &quot;&quot;;
+		var i_value =&quot;&quot;; 
+		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
+
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td onClick="document.forms[0].ActionsList_18.checked=(! document.forms[0].ActionsList_18.checked);">
+            <label>The proper amount of biocide was used this month</label>
+        </td>
+    </tr>
+	
+	<tr>
+        <td>
+
+            <input type="checkbox" name="ActionsList" id="ActionsList_19" value="Inhibitor is added to the system automatically" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		var c_value = &quot;&quot;;
+		var i_value =&quot;&quot;; 
+		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
+
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td onClick="document.forms[0].ActionsList_19.checked=(! document.forms[0].ActionsList_19.checked);">
+            <label>Inhibitor is added to the system automatically</label>
+        </td>
+    </tr>
+	
+	<tr>
+        <td>
+
+            <input type="checkbox" name="ActionsList" id="ActionsList_20" value="The water temperature is in the proper range" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		var c_value = &quot;&quot;;
+		var i_value =&quot;&quot;; 
+		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
+
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td onClick="document.forms[0].ActionsList_20.checked=(! document.forms[0].ActionsList_20.checked);">
+            <label>The water temperature is in the proper range</label>
+        </td>
+    </tr>
+	
+	
+    <tr>
+        <td>
+
+            <input type="checkbox" name="ActionsList" id="ActionsList21" value="I changed the filter bag" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		var c_value = &quot;&quot;;
+		var i_value =&quot;&quot;; 
+		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
+
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td onClick="document.forms[0].ActionsList21.checked=(! document.forms[0].ActionsList21.checked);">
+            <label>I changed the filter bag</label>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+
+            <input type="checkbox" name="ActionsList" id="ActionsList22" value="I added treatment to the closed loop (see comments)" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		var c_value = &quot;&quot;;
+		var i_value =&quot;&quot;; 
+		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
+
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td onClick="document.forms[0].ActionsList22.checked=(! document.forms[0].ActionsList22.checked);">
+            <label>I added treatment to the closed loop (see comments)</label>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+
+            <input type="checkbox" name="ActionsList" id="ActionsList23" value="I ordered more treatment or reagents" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
 							var c_value = &quot;&quot;;
 							var i_value =&quot;&quot;; 
-
 							for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
-					 
-							saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
-									id="ActionsList" style="margin-top: 10; padding: 20px;"></td>
-					<td onClick="document.forms[0].ActionsList15.checked=(! document.forms[0].ActionsList15.checked);">
-					<label>I ordered more treatment or reagents</label>
-							
-							
-						</td></tr>	
-		
-		<tr><td>
-	
-		<input type="checkbox"	name="ActionsList" id="ActionsList16"
-		value="I provided instructions to hands on personnel"
 
-		onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+							saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td onClick="document.forms[0].ActionsList23.checked=(! document.forms[0].ActionsList23.checked);">
+            <label>I ordered more treatment or reagents</label>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+
+            <input type="checkbox" name="ActionsList" id="ActionsList24" value="I provided instructions to hands on personnel" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
 		var c_value = &quot;&quot;;
 		var i_value =&quot;&quot;; 
-
 		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
- 
-		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
-				id="ActionsList" style="margin-top: 10; padding: 20px;"></td>
-		<td onClick="document.forms[0].ActionsList16.checked=(! document.forms[0].ActionsList16.checked);"><label>I provided instructions to hands on personnel</label>
-         
-		
-		</td></tr>	
-		
-		<tr><td>
-		
-		<input type="checkbox"	name="ActionsList"  id="ActionsList17"
-		value="Increase boiler blowdown or scaling or carry over may occur"
 
-		onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td onClick="document.forms[0].ActionsList24.checked=(! document.forms[0].ActionsList24.checked);">
+            <label>I provided instructions to hands on personnel</label>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+
+            <input type="checkbox" name="ActionsList" id="ActionsList25" value="Increase boiler blowdown or scaling or carry over may occur" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
 		var c_value = &quot;&quot;;
 		var i_value =&quot;&quot;; 
-
 		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
- 
-		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
-				id="ActionsList" style="margin-top: 10; padding: 20px;"></td>
-        <td onClick="document.forms[0].ActionsList17.checked=(! document.forms[0].ActionsList17.checked);">
-		<label>Increase boiler blowdown or scaling or carry over may occur	</label>
-        
-	
-		</td></tr>
-		
-		<tr><td>		
 
-		<input type="checkbox"	name="ActionsList"  id="ActionsList18"
-		value="Decrease boiler blowdown to decrease utility bills"
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td onClick="document.forms[0].ActionsList25.checked=(! document.forms[0].ActionsList25.checked);">
+            <label>Increase boiler blowdown or scaling or carry over may occur </label>
 
-		onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+
+            <input type="checkbox" name="ActionsList" id="ActionsList26" value="Decrease boiler blowdown to decrease utility bills" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
 		var c_value = &quot;&quot;;
 		var i_value =&quot;&quot;; 
-
 		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
- 
-		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
-				id="ActionsList" style="margin-top: 10; padding: 20px;"></td>
-		<td onClick="document.forms[0].ActionsList18.checked=(! document.forms[0].ActionsList18.checked);"><label>Decrease boiler blowdown to decrease utility bills</label>
-            
 
-		</td></tr>
-		
-		<tr><td>
-	
-		<input type="checkbox"	name="ActionsList" id="ActionsList19"
-		value="Closed loop is losing water; please find and correct losses in order to prevent corrosion"
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td onClick="document.forms[0].ActionsList26.checked=(! document.forms[0].ActionsList26.checked);">
+            <label>Decrease boiler blowdown to decrease utility bills</label>
 
-		onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+
+            <input type="checkbox" name="ActionsList" id="ActionsList27" value="Closed loop is losing water; please find and correct losses in order to prevent corrosion" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
 		var c_value = &quot;&quot;;
 		var i_value =&quot;&quot;; 
-
 		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
- 
-		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
-				id="ActionsList" style="margin-top: 10; padding: 20px;"></td>
-			<td onClick="document.forms[0].ActionsList19.checked=(! document.forms[0].ActionsList19.checked);">
-			<label>Closed loop is losing water; please find and correct losses in order to prevent corrosion</label>
-       
-	
-		</td></tr>
-		
-		<tr><td>
-		
-		<input type="checkbox"	name="ActionsList" id="ActionsList20"
-		value="Tower sump needs cleaned to prevent corrosion and biological problems"
 
-		onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td onClick="document.forms[0].ActionsList27.checked=(! document.forms[0].ActionsList27.checked);">
+            <label>Closed loop is losing water; please find and correct losses in order to prevent corrosion</label>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+
+            <input type="checkbox" name="ActionsList" id="ActionsList28" value="Tower sump needs cleaned to prevent corrosion and biological problems" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
 		var c_value = &quot;&quot;;
 		var i_value =&quot;&quot;; 
-
 		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
- 
-		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
-				id="ActionsList" style="margin-top: 10; padding: 20px;"></td>
-		<td onClick="document.forms[0].ActionsList20.checked=(! document.forms[0].ActionsList20.checked);"><label>Tower sump needs cleaned to prevent corrosion and biological problems</label>
-         
 
-		
-		</td></tr>
-		
-		<tr><td>
-	
-		<input type="checkbox"	name="ActionsList" id="ActionsList21" 
-		value="Bleed line valve was closed; please keep it it open or scaling will occur"
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td onClick="document.forms[0].ActionsList28.checked=(! document.forms[0].ActionsList28.checked);">
+            <label>Tower sump needs cleaned to prevent corrosion and biological problems</label>
 
-		onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+
+            <input type="checkbox" name="ActionsList" id="ActionsList29" value="Bleed line valve was closed; please keep it it open or scaling will occur" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
 		var c_value = &quot;&quot;;
 		var i_value =&quot;&quot;; 
-
 		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
- 
-		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
-				id="ActionsList" style="margin-top: 10; padding: 21px;"></td>
-<td onClick="document.forms[0].ActionsList21.checked=(! document.forms[0].ActionsList21.checked);"><label>Bleed line valve was closed; please keep it it open or scaling will occur</label>
-          
-		
-		</td></tr>
-		
-		<tr><td>
-		
-		<input type="checkbox"	name="ActionsList"  id="ActionsList22" 
-		value="Tower make-up float needs to be fixed or adjusted"
 
-		onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 21px;">
+        </td>
+        <td onClick="document.forms[0].ActionsList29.checked=(! document.forms[0].ActionsList29.checked);">
+            <label>Bleed line valve was closed; please keep it it open or scaling will occur</label>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+
+            <input type="checkbox" name="ActionsList" id="ActionsList30" value="Tower make-up float needs to be fixed or adjusted" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
 		var c_value = &quot;&quot;;
 		var i_value =&quot;&quot;; 
-
 		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
- 
-		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
-				id="ActionsList" style="margin-top: 10; padding: 20px;"></td>
-	<td onClick="document.forms[0].ActionsList22.checked=(! document.forms[0].ActionsList22.checked);">
-	<label>Tower make-up float needs to be fixed or adjusted</label>
-           
-		
-		</td></tr>
-		
-		<tr><td>		
-		
-		<input type="checkbox"	name="ActionsList" id="ActionsList23" 
-		value="Need to add a filter to the closed loop to prevent corrosion from iron and debris in system"
 
-		onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td onClick="document.forms[0].ActionsList30.checked=(! document.forms[0].ActionsList30.checked);">
+            <label>Tower make-up float needs to be fixed or adjusted</label>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+
+            <input type="checkbox" name="ActionsList" id="ActionsList31" value="Need to add a filter to the closed loop to prevent corrosion from iron and debris in system" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
 		var c_value = &quot;&quot;;
 		var i_value =&quot;&quot;; 
-
 		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
- 
-		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
-				id="ActionsList" style="margin-top: 10; padding: 20px;"></td>
-		<td onClick="document.forms[0].ActionsList23.checked=(! document.forms[0].ActionsList23.checked);"><label>Need to add a filter to the closed loop to prevent corrosion from iron and debris in system</label>
-            
-	
-		</td></tr>
-		
-		<tr><td>
-		
-		<input type="checkbox"	name="ActionsList" id="ActionsList24" 
-		value="Tower distribution pans need covers to eliminate extreme algae problems"
 
-		onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td onClick="document.forms[0].ActionsList31.checked=(! document.forms[0].ActionsList31.checked);">
+            <label>Need to add a filter to the closed loop to prevent corrosion from iron and debris in system</label>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+
+            <input type="checkbox" name="ActionsList" id="ActionsList32" value="Tower distribution pans need covers to eliminate extreme algae problems" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
 		var c_value = &quot;&quot;;
 		var i_value =&quot;&quot;; 
-
 		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
- 
-		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
-				id="ActionsList" style="margin-top: 10; padding: 20px;"></td>
-<td onClick="document.forms[0].ActionsList24.checked=(! document.forms[0].ActionsList24.checked);"><label>Tower distribution pans need covers to eliminate extreme algae problems</label>
-          
-	
-		</td></tr>
-		
-		<tr><td>
-		<label>
-		<input type="checkbox"	name="ActionsList" id="ActionsList25" 
-		value="Need lay up treatment to help minimize corrosion during off season"
 
-		onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td onClick="document.forms[0].ActionsList32.checked=(! document.forms[0].ActionsList32.checked);">
+            <label>Tower distribution pans need covers to eliminate extreme algae problems</label>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <label>
+                <input type="checkbox" name="ActionsList" id="ActionsList33" value="Need lay up treatment to help minimize corrosion during off season" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
 		var c_value = &quot;&quot;;
 		var i_value =&quot;&quot;; 
-
 		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
- 
-		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
-				id="ActionsList" style="margin-top: 10; padding: 20px;"></td>
-	<td onClick="document.forms[0].ActionsList25.checked=(! document.forms[0].ActionsList25.checked);"><label>Need lay up treatment to help minimize corrosion during off season</label>
-   
-		
-		</td></td>
-	
-	
-	//The indicated inhibitor range provides corrosion protection equal to the established ALPLA molybdate range 
-		
-			
-		<tr>
-		<td>
-		
-		
-		
-		<input type="checkbox" id="ActionsList26" 	name="ActionsList26"  value="The indicated inhibitor range provides corrosion protection equal to the established ALPLA molybdate range"
 
-		onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+        </td>
+        <td onClick="document.forms[0].ActionsList33.checked=(! document.forms[0].ActionsList33.checked);">
+            <label>Need lay up treatment to help minimize corrosion during off season</label>
+
+        </td>
+        </td>
+
+        //The indicated inhibitor range provides corrosion protection equal to the established ALPLA molybdate range
+
+        <tr>
+            <td>
+
+                <input type="checkbox" id="ActionsList34" name="ActionsList34" value="The indicated inhibitor range provides corrosion protection equal to the established ALPLA molybdate range" onclick="var custid = document.getElementById(&quot;customer_templates&quot;).value;
 		var c_value = &quot;&quot;;
 		var i_value =&quot;&quot;; 
-
 		for (var i=0; i &lt; document.forms[0].ActionsList.length; i++) {   if (document.forms[0].ActionsList[i].checked)      		{c_value = c_value + document.forms[0].ActionsList[i].value + &quot;;&quot;;      i_value = i_value + i +&quot;;			&quot;}}
- 
-		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);"
-				id="ActionsList" style="margin-top: 10; padding: 20px;">
-				</td>
-				<td>
-				<label for="ActionsList26" onClick="document.forms[0].ActionsList26.checked=(! document.forms[0].ActionsList1.checked);">The indicated inhibitor range provides corrosion protection equal to the established ALPLA molybdate range</label>
-            
-	
-		
-	</td></tr>
-	
-		
-	</table>		
-			
 
+		saveReport (custid, &quot;ActionsList&quot;, c_value); saveReport (custid, &quot;ActionNum&quot;, i_value);" id="ActionsList" style="margin-top: 10; padding: 20px;">
+            </td>
+            <td>
+                <label for="ActionsList34" onClick="document.forms[0].ActionsList34.checked=(! document.forms[0].ActionsList1.checked);">The indicated inhibitor range provides corrosion protection equal to the established ALPLA molybdate range</label>
 
+            </td>
+        </tr>
 
+</table>
+<!--End options added 5-31-18 -->
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 	<tr>
 		<td colspan="1" align="left"><img src="img/Larrow.png"
